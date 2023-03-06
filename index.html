@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--font Martel-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/stile.css">
+    <!--font Raleway-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!--font Playfair-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+
+
+    <script src="https://kit.fontawesome.com/454b036edd.js" crossorigin="anonymous"></script>
+
+
+
+    <title>Dark Cafè</title>
+</head>
+
+<body>
+    <!--........................................NAVBAR E VIDEO CON TESTO.................................-->
+    <div class="jumbotron jumbotron-fluid">
+        <video autoplay muted loop playsinline>
+            <source src="assets/img/Caffe.mp4" data-src="" type="video/mp4">
+        </video>
+        <nav class="navbar navbar-expand-lg px-1">
+            <div class="container-fluid contenuti">
+                <a class="navbar-brand p-0" href="#">
+                    <img src="assets/img/logo-no-background.png" alt="Dark Cafe" width="120" height="130">
+                </a>
+                <div class="justify-content-end" id="navbarSupportedContent">
+                    <button type="button" class="btn btn-outline light m-2" data-bs-toggle="modal"
+                        data-bs-target="#login"><i class="bi bi-person-fill "></i></button>
+                    <button type="button" class="btn btn-outline light m-2" data-bs-toggle="modal"
+                        data-bs-target="#login"><i class="bi bi-cart-fill"></i></button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container text-white" id="testo">
+            <div class="verticaltitle"></div>
+            <h1 class="display-4" data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">Dark cafe!</h1>
+            <p class="lead" data-aos="fade-right" data-aos-duration="700" data-aos-delay="700">Tutto ciò che facciamo è
+                una questione di cuore, corpo e anima. La nostra missione è fornire caffè di qualità da fonti
+                sostenibili, raccolte a mano.</p>
+            <p data-aos="fade-right" data-aos-duration="700" data-aos-delay="1000">Scopri le nostre capsule con una
+                vasta gamma di miscele, dalla Robusta all'Arabica.</p>
+            <a class="btn light btn-lg mt-4" href="#" role="button" data-aos="zoom-in" data-aos-duration="900"
+                data-aos-delay="1200">Acquista ora</a>
+        </div>
+    </div>
+
+    <!--........................................CHI SIAMO NOVITA.................................-->
+    <div class="container text-center px-5">
+        <h2 class="mt-5">Chi siamo</h2>
+        <div class="vertical"></div>
+        <p class="mt-5 pt-3" id="chisiamo">Da oltre quarant’anni
+            ricerchiamo e selezioniamo le migliori qualità di caffè per portare in
+            tazzina tutti i sapori e i profumi della terra d’origine, il lavoro dei coltivatori e l’esperienza del
+            torrefattore</p>
+    </div>
+    <div class="container text-center px-5 mb-5">
+        <h2 class="mt-5">Novità</h2>
+        <div class="vertical"></div>
+        <p class="mt-5 pt-3">I prodotti più amati dai nostri clienti</p>
+
+    </div>
+
+    <!--........................................CAROUSEL.................................-->
+
+    <div class=" container owl-carousel owl-theme mt-5" data-aos="fade-left" data-aos-duration="700"
+        data-aos-delay="600">
+        <div class="item">
+            <img src="assets/img/box-1.jpeg" class="card-img-top" alt="...">
+            <h5 class="card-title text-center py-5">Box 10 capsule</h5>
+        </div>
+        <div class="item">
+            <img src="assets/img/box-2.jpeg" class="card-img-top" alt="...">
+            <h5 class="card-title text-center py-5 ">Card Title</h5>
+        </div>
+        <div class="item">
+            <img src="assets/img/c6.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title text-center py-5 ">Card Title</h5>
+        </div>
+        <div class="item">
+            <img src="assets/img/c3.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title text-center py-5 ">Card Title</h5>
+        </div>
+        <div class="item">
+            <img src="assets/img/c5.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title text-center py-5 ">Card Title</h5>
+        </div>
+        <div class="item">
+            <img src="assets/img/c2.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title text-center py-5 ">Card Title</h5>
+        </div>
+        <div class="item">
+            <img src="assets/img/c7.jpg" class=" card-img-top" alt="...">
+            <h5 class="card-title text-center py-5 ">Card Title</h5>
+        </div>
+        <div class="item">
+            <img src="assets/img/c8.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title text-center py-5 ">Card Title</h5>
+        </div>
+    </div>
+    <div class="text-center">
+        <a class="btn dark btn-lg w-25" href="#" role="button" data-aos="zoom-in" data-aos-duration="900"
+            data-aos-delay="400">Vedi tutto</a>
+    </div>
+
+    <!--........................................LA NOSTRA STORIA.................................-->
+    <div class="container text-center mt-5 pt-5">
+        <h2 class="mt-5">Storia</h2>
+        <div class="vertical"></div>
+        <p class="my-5 pt-3">La nostra filosofia</p>
+    </div>
+    <div class="container-fluid px-0 pt-3">
+        <div class="card text-center mx-auto sfondo1">
+            <div class="row g-0">
+                <div class="col-sm-6 img"></div>
+                <div class="col-sm-6">
+                    <div class="card-body testo" data-aos="fade-left" data-aos-duration="600" data-aos-delay="600">
+                        <h4 class="card-title pt-1 pb-3">La torrefazione</h4>
+                        <p class="card-text">Dark Cafe è una torrefazione artigianale ed è proprio l'artigianalità
+                            presente in ogni fase del processo produttivo che rende unici i nostri caffè facendo in modo
+                            che ogni tazzina si trasformi in un'esperienza di benessere fatta di aromi unici e
+                            raffinati.
+                            <br>
+                            Ciascuna fase di lavorazione del caffè viene eseguita artigianalmente in Italia da personale
+                            esperto e qualificato capace di ottenere miscele di caffè pregiate, frutto di una attenta
+                            lavorazione.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card text-center mx-auto sfondo2">
+            <!--style="max-width: 1350px;">-->
+            <div class="row g-0">
+                <div class="col-sm-6">
+                    <div class="card-body testo" data-aos="fade-right" data-aos-duration="600" data-aos-delay="700">
+                        <h4 class="card-title pt-1 pb-3">Il caffè</h4>
+                        <p class="card-text">Da sempre selezioniamo i migliori caffè verdi dalle migliori
+                            piantagioni di tutto il mondo.
+                            <br>
+                            Nel nostro magazzino arrivano pregiate varietà di caffè Arabica dal Brasile, Honduras,
+                            Colombia, Guatemala, Etiopia e caffè Robusta selezionati da India, Vietnam, Indonesia,
+                            Africa.
+                            <br>
+                            Usiamo il caffè verde per creare miscele diverse tra loro, ma tutte con una personalità ben
+                            definita e riconoscibile, per soddisfare le esigenze e i palati dei nostri clienti.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 img"></div>
+            </div>
+
+        </div>
+
+        <!--<div class="card text-center mx-auto sfondo3">
+            <div class="row g-0">
+                <div class="col-sm-6 img"></div>
+                <div class="col-sm-6">
+                    <div class="card-body testo" data-aos="fade-left" data-aos-duration="600" data-aos-delay="800">
+                        <h4 class="card-title pt-1 pb-3">Sostenibilità</h4>
+                        <p class="card-text">Ci impegniamo a importare direttamente il caffè coltivato da piccoli
+                            produttori equosolidali; il rapporto duraturo e trasparente lungo tutta la filiera è parte
+                            della nostra mission ed è anche ciò che garantisce gli alti standard qualitativi del nostro
+                            caffè. Ogni nostro prodotto è il testimonial di tre principi: sostenibilità sociale,
+                            sostenibilità ambientale e sostenibilità economica. Supportiamo il progetto il progetto
+                            Women in Coffee, per sostenere piccole realtà di donne coltivatrici di caffè.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <div class="container text-center px-5">
+        <h2 class="mt-5 pt-5">Sostenibilità</h2>
+        <div class="vertical"></div>
+        <p class="mt-5 pt-3 testo">Ci impegniamo a importare direttamente il caffè coltivato da piccoli
+            produttori equosolidali; il rapporto duraturo e trasparente lungo tutta la filiera è parte
+            della nostra mission ed è anche ciò che garantisce gli alti standard qualitativi del nostro
+            caffè. Ogni nostro prodotto è il testimonial di tre principi: sostenibilità sociale,
+            sostenibilità ambientale e sostenibilità economica. Supportiamo il progetto il progetto
+            Women in Coffee, per sostenere piccole realtà di donne coltivatrici di caffè.</p>
+    </div>
+    <!--........................................SEZIONE SERVIZI CLIENTI.................................-->
+    <div class="container mt-5" id="servizi">
+        <div class="row gx-5">
+            <div class="col-sm-3 color" data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">
+                <p><i class="bi bi-truck"></i></p>
+                <h6>CONSEGNA GRATUITA</h6>
+                <p> Decidi come, dove e quando vuoi ricevere il tuo ordine. La consegna è sempre gratuita.</p>
+            </div>
+            <div class="col-sm-3" data-aos="fade-up" data-aos-duration="700" data-aos-delay="500">
+                <p><i class="bi bi-award"></i></p>
+                <h6>GARANZIA 24 MESI</h6>
+                <p> Le nostre macchine sono coperte da garanzia 2 anni. Offriamo assistenza tecnica a tutti i nostri
+                    clienti.</p>
+            </div>
+            <div class="col-sm-3" data-aos="fade-up" data-aos-duration="700" data-aos-delay="700">
+                <p><i class="bi bi-info-circle"></i></p>
+                <h6>ASSISTENZA CLIENTI 24/7</h6>
+                <p> I nostri Specialisti del Caffè sono a tua disposizione. Contatta il Numero Verde 800 00 00 00.</p>
+            </div>
+            <div class="col-sm-3" data-aos="fade-up" data-aos-duration="700" data-aos-delay="900">
+                <p><i class="bi bi-shield-lock"></i></p>
+                <h6>PAGAMENTO SICURO</h6>
+                <p> Con la crittografia SSL le informazioni sensibili sono sempre trasmesse in modo sicuro.</p>
+
+            </div>
+        </div>
+    </div>
+    <!--........................................FOOTER.................................-->
+
+    <footer class="container-fluid footer">
+        <div class="row">
+            <div class="col text-center pt-4">
+                <div class=" border-bottom w-50 mx-auto">
+                    <img src="assets/img/logo-no-background.png" class="mb-4" alt="Dark Cafe" width="70" height="80">
+                </div>
+            </div>
+
+            <div class="container text-center py-4 ">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href="#" class="nav-link mb-2">Home</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="#" class="nav-link mb-2">Prodotti</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="#" class="nav-link mb-2">Contatti</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="#" class="nav-link mb-2">Chi siamo</a>
+                    </div>
+                </div>
+                <div class="container text-center pt-4">
+                    <section class="mb-4 py-3">
+                        <a class="text-muted" href="https://www.facebook.com/" target="_blank"><i
+                                class="bi bi-facebook social p-4"></i></a>
+                        <a class="text-muted" href="https://twitter.com/" target="_blank"><i
+                                class="bi bi-twitter social p-4"></i></a>
+                        <a class="text-muted" href="https://www.instagram.com/" target="_blank"><i
+                                class="bi bi-instagram social p-4"></i></a>
+                    </section>
+                    <p>&copy; 2022 Dark Cafe - All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="credit-cards text-center pb-4">
+            <i class="fa-brands fa-cc-visa social px-3"></i>
+            <i class="fa-brands fa-cc-mastercard social px-3"></i>
+            <i class="fa-brands fa-cc-paypal social px-3"></i>
+            <i class="fa-brands fa-cc-amex social px-3"></i>
+          </div>
+          <div class=" text-center pb-3">
+            <img class="px-2" height="40" src="https://shoplineimg.com/assets/footer/card_visa.png"/>
+            <img class="px-2"  height="40" src="https://shoplineimg.com/assets/footer/card_master.png"/>
+            <img class="px-2" height="40" src="https://shoplineimg.com/assets/footer/card_paypal.png"/>
+            <img class="px-2" height="40" src="https://shoplineimg.com/assets/footer/card_amex.png"/>
+          </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+    </script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
