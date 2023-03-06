@@ -1,0 +1,228 @@
+body {
+  /*background-color: rgba(255, 240, 222, 0.6);*/
+  background-color: #ffffff;
+  color:#4D331F;
+  /*font-family: 'Martel', serif;*/
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+}
+h1,h2,h4,h5{
+  font-family: 'Playfair Display', serif;
+}
+
+/*-----------------------------------------------jumbotron*/
+.light {
+  color: #FFF0DE;
+  border: 1px solid #FFF0DE;
+  font-size: 18px;
+  border-radius: 0;
+}
+
+.light:hover {
+  color: #e6b17e;
+  border: 1px solid #e6b17e;
+}
+.contenuti {
+  z-index: 10;
+}
+
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+}
+
+.jumbotron video {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.jumbotron .container {
+  z-index: 2;
+  position: relative;
+}
+#testo h1 {
+  color: #e6b17e;
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+#testo {
+  padding: 240px 40px;
+  line-height: 35px;
+}
+
+#testo p {
+  color: #FFF0DE;
+}
+/*------------------------------------------------chi siamo novita*/
+#chisiamo{
+  padding: 0 100px;
+  margin-bottom: 100px;
+}
+
+.verticaltitle {
+  border-left: 3px solid #e6b17e;
+  height: 40%;
+  position:absolute;
+  left: 1%;
+}
+
+.vertical {
+  border-left: 3px solid #e6b17e;
+  height: 40px;
+  position:absolute;
+  left: 50%;
+}
+.dark {
+  color: #4D331F;
+  border: 1px solid #4D331F;
+  font-size: 15px;
+  border-radius: 0;
+}
+
+.dark:hover {
+  background-color: #4D331F;
+  color: #ffffff;
+}
+
+/*----------------------------------------------------carousel*/
+.item {
+  border-radius: 0px;
+  background: #ffffff;
+ /* box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.185), 5px 5px 9px rgba(155, 158, 165, 0.185);*/
+  margin-bottom: 10px;
+}
+
+.item img {
+  border-radius: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+  /*background: #4D331F;*/
+  visibility: hidden;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+ /* background: #e6b17e;*/
+  visibility: hidden;
+}
+
+/*------------------------------------------------------la nostra storia*/
+
+.sfondo1{
+  background-image: url('../img/tazzine.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border-radius: 0%;
+  border: none; 
+ 
+}
+
+.sfondo2{
+  background-image: url('../img/raccolta\ caffe5.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border-radius: 0%;
+  border: none; 
+  
+}
+
+.sfondo3{
+  background-image: url('../img/vietnam.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border-radius: 0%;
+  border: none;  
+}
+
+.testo{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+ line-height: 40px;
+ padding: 40px 100px;
+}
+/*---------------------------------------------servizi*/
+#servizi{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+#servizi i{
+  font-size: 40px;
+}
+
+/*---------------------------------------------------footer*/
+.footer {
+  background: radial-gradient(#342113,#190f08);
+  /*background-image: url(../img/abstract-brown.jpg);*/
+  background-position: no-repeat fixed center;
+  color: #FFF0DE;
+}
+
+.footer a{
+  color: #FFF0DE;
+}
+
+.social{
+  color: #e6b17e;
+  font-size: 1.5em;
+}
+
+.footer a:hover {
+  color: #e6b17e;
+}
+
+
+/*--------------------------------------------------------test*/
+
+.img-section{
+  /*background-image: url('https://static.wixstatic.com/media/84770f_220fb2706df2481698ec768594e4e767~mv2.png/v1/fill/w_2379,h_1308,al_b,q_95,usm_0.66_1.00_0.01,enc_auto/84770f_220fb2706df2481698ec768594e4e767~mv2.png%27');*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  margin-top: 150px;
+}
+.img-coffe{
+  width: 400px;
+  height: auto;
+}
+@media screen and (max-width:500px) {
+  .img-section{
+    margin-top: 30px;
+  }
+  .img-coffe{
+    width: 250px;
+  }
+}
+
+/*----------------------------------------------media*/
+@media screen and (max-width: 575px) {
+  .img {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #chisiamo{
+    padding: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .verticaltitle2{
+    display: none;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .testo {
+    font-size: 14px;
+    padding: 40px 20px;
+    line-height: 20px;
+  }
+}
